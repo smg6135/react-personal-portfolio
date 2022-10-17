@@ -4,6 +4,7 @@
   background-color: black;
   color:white;
   z-index: 1;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-style: normal; font-variant: normal; line-height: 26.4px;
 }
 
 .App .container-fluid{
