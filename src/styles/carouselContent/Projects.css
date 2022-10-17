@@ -1,0 +1,75 @@
+.project-content,.main-div{
+    height: 100%;
+}
+
+#page-title{
+    height:20%;
+}
+
+.slick-slider{
+    height:80%;
+}
+
+.slick-list, .slick-track, .slick-slide, .slick-slide div{
+    height:100%;
+}
+
+.slick-prev {
+  left: 0 !important;
+  z-index: 1000;
+}
+.slick-prev:before {
+  content: "";
+  color: black!important;;
+}
+.slick-next {
+  right: 0 !important;
+  z-index: 1000;
+}
+.slick-next:before {
+  content: "";
+  color: black!important;;
+}
+
+.center .slick-center #card-item {
+  opacity: 1;
+  -ms-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+#card-item{
+    background-color: rgb(164, 164, 168);
+    border-radius: 5px;
+  height: 90%;
+  margin: 10px;
+  margin-left: 20px;
+  padding: 2%;
+  text-align: center;
+  display: block;
+}
+
+#card-item h3{
+    color: black;
+    height: 20%;
+}
+
+#card-item p{
+    color: black;
+    height: 45%;
+}
+
+#card-item .img-container{
+    height: 20%;
+}
+
+.img-container a{
+    height: 100%;
+}
+
+.img-container a button{
+    height: 100%;
+}
+
+.img-container a img{
+    height: 100%;
+}

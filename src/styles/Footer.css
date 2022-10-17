@@ -1,0 +1,25 @@
+
+
+.row.footer{
+    height: 10vh;
+}
+
+.text-right{
+    height: 100%;
+}
+
+button{
+    height: 100%;
+    background: transparent;
+    border: 0;
+}
+
+img{
+    height: 80%;
+}
+
+@media only screen and (max-width : 768px) { 
+    .row.footer{
+        height: 100px;
+    }
+  }

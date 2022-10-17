@@ -1,0 +1,17 @@
+.intro-main{
+    font-size:18px;
+    text-align:left;
+    display: table;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.intro-main .col .main-text{
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.col.word-cloud{
+    height: 100%;
+}

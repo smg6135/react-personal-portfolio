@@ -1,0 +1,7 @@
+.navbar-brand img{
+    border-radius: 50%;
+} 
+
+.navbar-color{
+    background: linear-gradient(rgb(50, 41, 3), black);
+}
