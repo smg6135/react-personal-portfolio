@@ -3,6 +3,18 @@
     align-items: center;
 }
 
+@media only screen and (max-width : 768px) { 
+    .addinfo .addinfo-main{
+        display: block;
+        height: fit-content;
+    }
+    .contact-info{
+        display: block;
+    }
+    .resources-info{
+        display: block;
+    }
+  }
 
 .contact-info, .resourcese-info{
     text-align: center;

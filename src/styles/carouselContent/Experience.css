@@ -1,9 +1,18 @@
 .row.experience{
     height: 100%;
     width: 100%;
-    overflow: scroll;
+    overflow: hidden;
     position: relative;
 }
+
+@media only screen and (max-width : 768px) { 
+    .row.experience{
+        overflow: scroll;
+        display: block;
+        height: fit-content;
+        margin-left:5%;
+    }
+  }
 
 .work-list{
     height: 100%;
