@@ -7,7 +7,7 @@
 
 @media only screen and (max-width : 768px) { 
     .row.experience{
-        overflow: scroll;
+        overflow: auto;
         display: block;
         height: fit-content;
         margin-left:5%;
