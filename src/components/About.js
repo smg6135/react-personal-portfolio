@@ -69,12 +69,12 @@ export default function About(){
     return (
         <div className = "row middle">
             <div className = "content">
-                <animated.div style = {{ ...fadeIntro, overflow: "scroll" }}>
+                <animated.div style = {{ ...fadeIntro, overflow: "hidden" }}>
                     <div className = "intro-block" ref = {heightRef}>
                         <Intro />
                     </div>
                 </animated.div>
-                <animated.div style = {{ ...fadeExp, overflow: "scroll" }}>
+                <animated.div style = {{ ...fadeExp, overflow: "hidden" }}>
                     <div className = "experience-block" ref = {heightRef}>
                         <Experience/>
                     </div>
