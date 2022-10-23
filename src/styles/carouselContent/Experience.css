@@ -25,6 +25,10 @@
     width: 100%;
 }
 
+.section-title h2 u{
+    font-weight: bold;
+}
+
 .work-title{
     padding-top: 5px;
     height: max-content;

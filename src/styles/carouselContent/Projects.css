@@ -2,6 +2,10 @@
     height: 100%;
 }
 
+.main-div h2 u{
+  font-weight: bolder;
+}
+
 #page-title{
     height:20%;
 }
@@ -38,6 +42,7 @@
 }
 
 #card-item{
+  opacity: 70%;
     background-color: rgb(164, 164, 168);
     border-radius: 5px;
   height: 90%;
@@ -49,6 +54,7 @@
 }
 
 #card-item h3{
+    margin-top: 10px;
     color: black;
     height: 20%;
 }
