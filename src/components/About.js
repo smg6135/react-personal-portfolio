@@ -74,7 +74,7 @@ export default function About(){
                         <Intro />
                     </div>
                 </animated.div>
-                <animated.div style = {{ ...fadeExp, overflow: "hidden" }}>
+                <animated.div style = {{ ...fadeExp, overflow: "auto"}}>
                     <div className = "experience-block" ref = {heightRef}>
                         <Experience/>
                     </div>

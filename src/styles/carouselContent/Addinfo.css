@@ -1,18 +1,31 @@
+.addinfo{
+    overflow-x: hidden;
+    overflow-y: auto;
+    position:relative;
+}
+
 .addinfo, .addinfo .addinfo-main{
     height: 100%;
     align-items: center;
 }
 
 @media only screen and (max-width : 768px) { 
-    .addinfo .addinfo-main{
-        display: block;
-        height: fit-content;
-    }
-    .contact-info{
+    .addinfo, .addinfo .addinfo-main{
+        height: 100%;
         display: block;
     }
-    .resources-info{
+    .row .contact-info{
         display: block;
+        margin-top: 10px;
+    }
+    .row .resources-info{
+        display: block;
+        margin-top: 10px;
+    }
+
+    .row .resume-download{
+        display: block;
+        margin-top: 15%;
     }
   }
 
@@ -30,22 +43,17 @@
 }
 
 .resume-download button{
-    background-color: rgb(82, 80, 80);
+    display: inline-block;
     color: white;
     font-size: 30px;
     font-weight: bold;
     border-radius: 5px;
-    width: 80%;
+    width: 100%;
     position: relative;
+    height: 50px;
+    border: solid;
 }
 
 .resource-links div a{
     position: relative;
 }
-
-@media only screen and (max-width : 768px) { 
-    .addinfo{
-      display: block;
-      height: fit-content;
-    }
-  }

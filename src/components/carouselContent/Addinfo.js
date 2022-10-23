@@ -31,7 +31,7 @@ export default function Addinfo(){
                     </div>
                 </div>
                 <div className = "row resume-download">
-                    <a href='/mingonsong_cv.pdf' download><button>Download My Resume</button></a>
+                    <a href='https://fearless-nutmeg-51a.notion.site/SWE-resume-f5a0c7fcc7454e2f9533a68630db0e2a target="_blank"'><button>📝 Check my resume</button></a>
                 </div>
             </div>
         </div>
